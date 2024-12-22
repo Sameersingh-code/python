@@ -17,3 +17,5 @@ print(a/b)
 print(a-b)
 </br>
 print(a**b)
+</br>
+print(a%b)
