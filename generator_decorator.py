@@ -24,8 +24,20 @@ first_name()
 # first_name(input("Enter your name : \n"))
 
 #How to impiliment Genrator
+# def genrator():
+#     for i in range(10):
+#         yield i
+
+# new = genrator()
+# print(next(new))
+# print(next(new))
+# print(next(new))
+# for i in new:
+#     print(i)
+
 def genrator():
     for i in range(1 , 10):
         yield(i)
+        
 
 print(list(genrator()))
