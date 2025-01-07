@@ -28,3 +28,10 @@ def odd_recurstion(x):
 print(even_recurstion(10))
 print(odd_recurstion(9))
 #output Ture , Ture
+def power(a,b):
+    if b == 0:
+        return 1
+    else :
+        return a * power(a,b-1)
+print(power(3,4))
+#output 81
